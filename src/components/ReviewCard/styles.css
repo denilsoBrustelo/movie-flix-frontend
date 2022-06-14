@@ -1,16 +1,55 @@
-.review-container {
-  display: flex;  
-  justify-content: center;
-  background-size: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  vertical-align: middle;
-  margin-top: 40px; 
-  border-radius: 20px;
-  margin-left: 110px ;
+.movie-card-container {
+  margin-bottom: 40px;
+  margin-inline: auto;
+  max-width: 260px;
+  min-height: 300px;
 }
 
+.movie-card-content {
+  padding: 10px 15px 0 15px;
+}
 
+.movie-card-content h1 {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
 
+.movie-card-content h2 {
+  margin-bottom: 3px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+
+  color: #ffc700;
+  mix-blend-mode: normal;
+}
+
+.movie-card-content p {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.movie-card-image {
+  margin-top: 26px;
+  width: 100%;
+}
 
